@@ -1,0 +1,42 @@
+#nav{
+   display: flex; 
+ 
+   width: cover;
+   height: 100px;
+   background-color:darkgrey;
+   justify-content:space-between;
+   list-style-type: none;
+   
+   
+   
+ 
+}
+#nav a{
+   padding: 40px;
+}
+
+#nav a:hover{
+   background-color: rgb(232, 232, 236);
+   
+   
+}
+
+#container{
+   display: flex;
+   margin-top: 500px;
+   margin-left: 200px;
+   padding: 30px;
+   gap: 20px;
+ 
+   
+}
+#p1:hover{
+   width: 225px;
+   height: 225px;
+   border: 5px solid rgb(209, 114, 114);
+   box-shadow: 5px 5px 5px pink;
+   
+}
+a{
+   text-decoration: none;
+}
